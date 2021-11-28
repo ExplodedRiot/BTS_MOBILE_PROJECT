@@ -36,9 +36,9 @@
         </div>
     </div>
 
-
     <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
         <div class="container">
+
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
@@ -46,16 +46,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand logo">
-                <img id="apple" alt="logo" src="#" style="height: 80px;">
-                </a>
+
             </div>
+
 
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#service-page">Feature</a></li>
-                    <li><a href="#team-page">Team</a></li>
+                    <li  class="active"><a style="color: black;font-weight: bold;" href="#home-page">Home</a></li>
+                    <li><a href="#service-page" style="color: black;font-weight: bold;" >Feature</a></li>
+                    <li><a href="#team-page" style="color: black;font-weight: bold;">Team</a></li>
                     @if (Route::has('login'))
 
                     @auth
@@ -68,7 +67,7 @@
                     </li>
                     @if (Route::has('register'))
                     <li style="background-color:#ED8975 ;">
-                        <a href="{{ route('register') }}" class="ml-4 text-sm text-black "style="color: black;font-weight: bold;">REGISTER</a>
+                        <a href="{{ route('register') }}" class="ml-4 text-sm text-black " style="color: black;font-weight: bold;">REGISTER</a>
                     </li>
                     @endif
                     @endauth
@@ -92,15 +91,26 @@
     <header class="header-area overlay full-height relative v-center" id="home-page">
         <div class="absolute anlge-bg"></div>
         <div class="container">
+
+
             <div class="row v-center">
+
                 <div class="col-xs-12 col-md-7 header-text">
-                    <h2>It’s all about Promoting your Business</h2>
+                    <div class="logo" style="position:fixed;bottom:650px">
+                        <a href="/" class="navbar-brand logo">
+                            <img id="bromo" alt="logo" src="images/logo.png" style="height: 150px;display: ;">
+                        </a>
+                    </div>
+
+                    <h2>Explore Bromo Tengger Semeru</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex inventore vel error quibusdam
                         animi fugiat, doloribus dolores consectetur nulla deleniti sint blanditiis quod debitis quis
                         vitae officiis tempora numquam.</p>
 
 
+
                     <div class="gambar">
+
                         <a href="#">
                             <img id="apple" alt="apple" src="images/apple.png" style="height: 80px;">
                         </a>
@@ -861,7 +871,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <p>&copy;Copyright 2018 ThemeCTG all right resurved. Designed by Quomodotheme</p>
+                        <p>&copy;Copyright 2021 all right reserved. Designed by ArJ Group</p>
                     </div>
                 </div>
             </div>
