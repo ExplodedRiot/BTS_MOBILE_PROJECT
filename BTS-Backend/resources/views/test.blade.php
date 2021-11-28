@@ -19,6 +19,11 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <style>
+        .gambar {
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#primary-menu">
@@ -42,7 +47,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="/" class="navbar-brand logo">
-                    <h2>colid</h2>
+                <img id="apple" alt="logo" src="#" style="height: 80px;">
                 </a>
             </div>
 
@@ -54,16 +59,16 @@
                     @if (Route::has('login'))
 
                     @auth
-                    <li>
+                    <li style="background-color: burlywood;">
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 ">Dashboard</a>
                     </li>
                     @else
-                    <li>
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 ">Login</a>
+                    <li style="background-color: burlywood">
+                        <a href="{{ route('login') }}" class="text-sm bold" style="color: black;font-weight: bold;">Login</a>
                     </li>
                     @if (Route::has('register'))
-                    <li>
-                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 ">Register</a>
+                    <li style="background-color:#ED8975 ;">
+                        <a href="{{ route('register') }}" class="ml-4 text-sm text-black "style="color: black;font-weight: bold;">REGISTER</a>
                     </li>
                     @endif
                     @endauth
@@ -93,7 +98,17 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex inventore vel error quibusdam
                         animi fugiat, doloribus dolores consectetur nulla deleniti sint blanditiis quod debitis quis
                         vitae officiis tempora numquam.</p>
-                    <a href="#" class="button white">Watch video</a>
+
+
+                    <div class="gambar">
+                        <a href="#">
+                            <img id="apple" alt="apple" src="images/apple.png" style="height: 80px;">
+                        </a>
+                        <a href="#">
+                            <img id="google" alt="google" src="images/google.png" style="height: 95px;">
+                        </a>
+                    </div>
+
                 </div>
                 <div class="hidden-xs hidden-sm col-md-5 text-right">
                     <div class="screen-box screen-slider">
