@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Online Mart Apps</title>
+    <title>Bromo Reserve Apps</title>
 
     <link rel="apple-touch-icon" href="landing/images/xapple-touch-icon.png.pagespeed.ic.SUMjwTF81_.png">
     <link rel="shortcut icon" type="image/ico" href="landing/images/favicon.ico">
