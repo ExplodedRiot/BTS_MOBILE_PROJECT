@@ -1,4 +1,4 @@
-import 'package:shamo_apps/models/product_models.dart';
+import 'package:explore_bts/models/product_models.dart';
 
 class CartModel {
   int? id;
@@ -15,15 +15,13 @@ class CartModel {
 
   Map<String, dynamic> toJson() {
     return {
-      'id' : id,
-      'product' : product!.toJson(),
-      'quantity' : qty,
+      'id': id,
+      'product': product!.toJson(),
+      'quantity': qty,
     };
   }
 
   double getTotalPrice() {
     return product!.price! * qty!;
-
   }
-
 }

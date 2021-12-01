@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo_apps/theme.dart';
-import 'package:shamo_apps/widget/chat_tile.dart';
+import 'package:explore_bts/pages/home/theme.dart';
+import 'package:explore_bts/widget/chat_tile.dart';
 
 class ChatPage extends StatelessWidget {
   // const HomaPage({Key? key}) : super(key: key);
